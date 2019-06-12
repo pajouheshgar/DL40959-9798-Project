@@ -9,6 +9,9 @@ Course Page: [http://ce.sharif.edu/courses/97-98/2/ce959-1/](http://ce.sharif.ed
 * Distance
 * nltk
 
+## Dataset 
+You can download dataset from [here](https://drive.google.com/drive/folders/1RC6IngMse8biU7OYLGEes7iueW5wW7U2?usp=sharing)
+
 ```
 pip3 install -r requirements.txt
 ```
@@ -16,12 +19,12 @@ pip3 install -r requirements.txt
 ## Usage
 
 ### For Evaluating BLEU Score
-```shell
+```bash
 python3 Evaluation/bleu_score.py --target-formulas target.txt --predicted-formulas predicted.txt --ngram 5
 ```
 
 ### For Evaluating Edit Distance Accuracy
 
-```shell
+```bash
 python3 Evaluation/edit_distance.py --target-formulas target.txt --predicted-formulas predicted.txt
 ```
