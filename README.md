@@ -20,12 +20,12 @@ You can download dataset from [here](https://drive.google.com/drive/folders/1RC6
 
 ## Usage
 
-### For Evaluating BLEU Score
+#### For Evaluating BLEU Score
 ```bash
 python3 Evaluation/bleu_score.py --target-formulas target.txt --predicted-formulas predicted.txt --ngram 5
 ```
 
-### For Evaluating Edit Distance Accuracy
+#### For Evaluating Edit Distance Accuracy
 
 ```bash
 python3 Evaluation/edit_distance.py --target-formulas target.txt --predicted-formulas predicted.txt
