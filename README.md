@@ -14,7 +14,8 @@ pip3 install -r requirements.txt
 ```
 
 ## Dataset 
-You can download dataset from [here](https://drive.google.com/drive/folders/1RC6IngMse8biU7OYLGEes7iueW5wW7U2?usp=sharing)
+Dataset folder in this repository is a template.
+You can download dataset from [here](https://drive.google.com/drive/folders/1RC6IngMse8biU7OYLGEes7iueW5wW7U2?usp=sharing) and replace the Dataset folder with the one you've downloaded.
 
 
 
